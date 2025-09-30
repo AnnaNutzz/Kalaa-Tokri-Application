@@ -31,7 +31,7 @@ import requests
 import json
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-FIREBASE_WEB_API_KEY = "AIzaSyBfGewnCz3oAnquGFNzOjSeD9wIQXVndek"
+FIREBASE_WEB_API_KEY = "KEY"
 APP_ID = "kalaatokri-51ed2"
 
 KV = '''
@@ -790,3 +790,4 @@ class MainApp(MDApp):
 
 if __name__ == "__main__":
     MainApp().run()
+
